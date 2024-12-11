@@ -1,0 +1,34 @@
+.container_semesters{
+    width: 95%;
+    height: 20%;
+    background:white;
+    position: relative;
+    display: flex;
+    border: 1px solid gray;
+    overflow: hidden;
+    border-radius: 7px;
+    
+    
+}
+
+.container_semesters_top{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    background: lightblue;
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.container_semesters_lower{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    background:lightgreen;
+    display: flex;
+    align-items: center;
+    gap: 0;
+}

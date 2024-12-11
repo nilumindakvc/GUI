@@ -1,0 +1,17 @@
+.container_modulebox{
+    width: 72%;
+    height: 100%;
+    background:white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 20px;
+    
+    
+}

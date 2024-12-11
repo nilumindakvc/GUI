@@ -1,0 +1,15 @@
+.semester{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    overflow: hidden;
+}
+
+.semester:hover{
+    opacity: 0.6;
+    
+    
+}

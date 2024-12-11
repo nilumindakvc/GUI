@@ -1,0 +1,36 @@
+.module_card{
+    width: 22%;
+    height: 100%;
+    background: gray;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+    
+}
+
+.modulecard_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    
+    
+}
+
+.modulecard_button_button{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+    border: none;
+    color: gray;
+}
+
+.modulecard_button_button:hover{
+    opacity: 0.8;;
+    
+}

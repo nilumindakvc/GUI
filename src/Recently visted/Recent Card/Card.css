@@ -1,0 +1,65 @@
+.maincontainer_card{
+    width: 250px;
+    height: 150px;
+    background:white;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 4px gray;
+    border-radius: 4px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+    flex: 0 0 auto;
+    
+    
+}
+
+.card_picture_complex{
+    position:absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    background-image: url('../../assets/complexanalysis.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+.card_picture_gui{
+    position:absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    background-image: url('../../assets/guiprogramming.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+.card_picture_dsa{
+    position:absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    background-image: url('../../assets/dsa.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.card_description{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontainer_card:hover{
+    width: 252px;
+    height: 152px;
+   
+    
+}
