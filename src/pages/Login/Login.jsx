@@ -1,33 +1,35 @@
+
+import { useState } from 'react'
+import GuestLoginCard from '../../GuestLogin/GuestLoginCard'
+import StudentLoginCard from '../../Student/StudentLoginCard'
 import './Login.css'
 
 export default function Login(){
+
+    const [logger,setlogger]=useState('student');
+    function loginStateChange(){
+        if(logger=='student'){
+            setlogger('guest');
+        }
+        if(logger=='guest'){
+            setlogger('student');
+        }
+    }
+
     return(
         <div className="maincontainer">
             <div className="header">
                 <div className='nav_left'>
                 <ul>
-                    <li>Student</li>
-                    <li>Teacher</li>
+                    <li onClick={loginStateChange}>Student</li>
+                    <li onClick={loginStateChange}>Guest</li>
                 </ul>
                 </div>
               
             </div>
-            <div className="login_window">
-            <div className='login_title'>
-               <div className='login_title_inside'>
-              <p style={{fontFamily:'sans-serif',fontSize:'15px'}}> Student Management System</p>
-                Student Login
-               </div>
-            </div>
-            <div className='login_inputs'>
-                
-                <input type='text' placeholder='username'/>
-                <input type='password' placeholder='password' />
-            </div>
-            <div className='login_buttons'>
-               <button className='button'>Login</button>
-            </div>
-            </div>
+            {logger=='student'?<StudentLoginCard/>:<GuestLoginCard/>}
+            
+      
             <div className="footer">
                 <div id='footer_para'>
                    

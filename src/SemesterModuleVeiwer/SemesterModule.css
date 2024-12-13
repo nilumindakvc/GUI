@@ -1,0 +1,11 @@
+.modulebox_and_modulecard{
+    display: flex;
+    justify-content: flex-start;
+    height: 50%;
+    width: 95%;
+    border-radius:5px ;
+    overflow: hidden;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 4px gray;
+    
+}

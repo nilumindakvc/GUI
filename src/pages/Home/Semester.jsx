@@ -1,5 +1,5 @@
 import './Semester.css'
-export default function({bgcolour,title}){
+export default function Semester({bgcolour,title}){
    return(
     <div className="semester" style={{background:bgcolour}}>
      <div>

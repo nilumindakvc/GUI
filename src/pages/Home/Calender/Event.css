@@ -1,0 +1,13 @@
+.container_event{
+    width: 95%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:rgb(221, 221, 221);
+    border-radius: 4px;
+    color: black;
+    flex: 0 0 auto;
+
+}
