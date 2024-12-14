@@ -9,7 +9,7 @@
     position: relative;
     overflow: hidden;
     flex: 0 0 auto;
-    
+    margin-top: 10px;
     
 }
 
@@ -22,6 +22,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    
     
 }
 .card_picture_gui{
@@ -55,11 +56,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: gray;
+    font-size: 12px;
 }
 
-.maincontainer_card:hover{
+/* .maincontainer_card:hover{
     width: 252px;
     height: 152px;
    
     
-}
+} */

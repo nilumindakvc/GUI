@@ -1,4 +1,6 @@
 import './StudentLoginCard.css'
+import { Link } from 'react-router-dom'
+
 export default function StudentLoginCard(){
     return(
         <div className="login_window">
@@ -14,7 +16,9 @@ export default function StudentLoginCard(){
             <input type='password' placeholder='password' />
         </div>
         <div className='login_buttons'>
-           <button className='button'>Login</button>
+        <Link to="/">
+          <button className='button'> Login</button>
+        </Link>
         </div>
         </div>
     )

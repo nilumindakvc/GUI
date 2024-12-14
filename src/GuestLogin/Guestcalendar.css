@@ -1,0 +1,40 @@
+.maincontainer_guest_calendar{
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 5px;
+}
+.guest_calendar_top{
+    width: 100%;
+    height: 5%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin_center{
+    width: 100%;
+    height: 50%;
+
+}
+
+.admin_center_top{
+    width: 100%;
+    height: 11%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin_center_bottom{
+    width: 100%;
+    height: 89%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgb(243, 241, 241);
+}

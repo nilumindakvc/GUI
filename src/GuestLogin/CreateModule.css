@@ -1,0 +1,11 @@
+.maincontainer_create_Module{
+    width: 98%;
+    height: 100%;
+    position: absolute;
+    top: 5px;
+    background: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

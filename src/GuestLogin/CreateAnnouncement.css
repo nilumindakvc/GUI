@@ -1,0 +1,41 @@
+.maincontainer_create_announcement{
+    width: 98%;
+    height: 40%;
+    position: absolute;
+    top: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+
+}
+.guest_announcement_top{
+    width: 100%;
+    height: 20%;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guest_announcement_bottom{
+    width: 100%;
+    height: 80%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.annoc_botton{
+    margin: 20px;
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+   
+}
+
+.annoc_botton:hover{
+    background: rgb(149, 190, 203);
+}
