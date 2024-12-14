@@ -11,13 +11,12 @@
     height: 15%;
     position: absolute;
     top: 0;
-    background:lightgray;
+    background:rgb(155, 155, 155);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid gray;
-    border-top: 1px solid gray;
+  
 }
 
 .container_upcoming_bottom{

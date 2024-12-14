@@ -1,0 +1,16 @@
+.homecard_container{
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.homecard_container:hover{
+    background: greenyellow;
+    color: white;
+}

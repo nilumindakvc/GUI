@@ -15,6 +15,7 @@ function App() {
         <Route exact path="/" Component={Home}/>
         <Route path="/login" Component={Login}/>
         <Route path="/guest" Component={GuestPage}/>
+        
       </Routes>
       </div>
     </Router>

@@ -4,9 +4,12 @@ import PublishedModule from './PublishedModule'
 import './GuestPage.css'
 import Guestcalendar from './Guestcalendar'
 import StudentEntrolment from './StudentEntrolment'
+import Navbar from '../Nav/Nav'
 
 export default function GuestPage(){
     return(
+        <div className='parentcontainer_guestpage'>
+            <Navbar/>
         <div className='maincontainer_guestpage'>
             <div className='guest_vertical_container'>
                 <CreateAnnouncement/>
@@ -16,10 +19,7 @@ export default function GuestPage(){
             <div className='guest_vertical_container' style={{width:'27.5%'}}><PublishedModule/></div>
             <div className='guest_vertical_container'><Guestcalendar/></div>
         
-        
-        
-      
-       
+        </div>
         </div>
     )
 }

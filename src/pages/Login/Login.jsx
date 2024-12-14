@@ -4,16 +4,16 @@ import GuestLoginCard from '../../GuestLogin/GuestLoginCard'
 import StudentLoginCard from '../../Student/StudentLoginCard'
 import './Login.css'
 
+
 export default function Login(){
 
     const [logger,setlogger]=useState('student');
-    function loginStateChange(){
-        if(logger=='student'){
-            setlogger('guest');
-        }
-        if(logger=='guest'){
-            setlogger('student');
-        }
+    
+    function Student(){
+        setlogger('student');
+    }
+    function Guest(){
+        setlogger('guest');
     }
 
     return(
@@ -21,8 +21,8 @@ export default function Login(){
             <div className="header">
                 <div className='nav_left'>
                 <ul>
-                    <li onClick={loginStateChange}>Student</li>
-                    <li onClick={loginStateChange}>Guest</li>
+                    <li onClick={Student}>Student</li>
+                    <li onClick={Guest}>Guest</li>
                 </ul>
                 </div>
               

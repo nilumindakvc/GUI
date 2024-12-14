@@ -1,3 +1,13 @@
+
+.parentcontainer_guestpage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 .maincontainer_guestpage{
     position: absolute;
     top: 50px;

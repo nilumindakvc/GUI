@@ -1,4 +1,5 @@
 import './GuestLoginCard.css'
+import { Link } from 'react-router-dom'
 export default function GuestLoginCard(){
     return(
         <div className="login_window">
@@ -14,7 +15,7 @@ export default function GuestLoginCard(){
             <input type='password' placeholder='password' />
         </div>
         <div className='login_buttons'>
-           <button className='button'>Login</button>
+           <Link to="/guest"> <button className='button'>Login</button></Link>
         </div>
         </div>
     )

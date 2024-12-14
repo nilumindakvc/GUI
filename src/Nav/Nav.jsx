@@ -2,9 +2,7 @@ import { Link } from "react-router-dom"
 import "./Nav.css"
 
   function Navbar({navigating_state,set_navigating_state}){
-    function NavigateChange_in_navbar(content_want){
-          set_navigating_state(content_want);
-    }
+   
     return(
         <div className="main_container_nav">
            
