@@ -1,0 +1,371 @@
+
+
+let departments_semesters_modules = [
+    {
+        d_name: "computer",
+        full_sems:{
+        sem_1: {
+            m1: "Introduction to Programming",
+            m2: "Discrete Mathematics",
+            m3: "Digital Logic Design",
+            m4: "Computer Systems and Architecture",
+            m5: "Data Structures and Algorithms",
+            m6: "Calculus",
+           
+        },
+        sem_2: {
+            m1: "Object-Oriented Programming",
+            m2: "Database Systems",
+            m3: "Computer Networks",
+            m4: "Operating Systems",
+            m5: "Linear Algebra",
+            m6: "Electronics and Microprocessors",
+            
+        },
+        sem_3: {
+            m1: "Advanced Data Structures",
+            m2: "Algorithms",
+            m3: "Computer Organization",
+            m4: "Embedded Systems",
+            m5: "Signal Processing",
+            m6: "Probability and Statistics",
+        },
+        sem_4: {
+            m1: "Operating Systems",
+            m2: "Computer Networks",
+            m3: "Database Management Systems",
+            m4: "Microprocessors and Microcontrollers",
+            m5: "Machine Learning",
+            m6: "Professional and Ethical Issues in Computing"
+        },
+        sem_5: {
+            m1: "Advanced Algorithms",
+            m2: "Network Security",
+            m3: "Embedded Systems Design",
+            m4: "Artificial Intelligence",
+            m5: "Computer Architecture",
+            m6: "Software Project Management"
+        },
+        sem_6: {
+            m1: "Distributed Systems",
+            m2: "Data Mining",
+            m3: "Mobile Computing",
+            m4: "Cybersecurity",
+            m5: "Advanced Machine Learning",
+            m6: "Project Work/Internship"
+        },
+        sem_7: {
+            m1: "Cloud Computing",
+            m2: "Big Data Analytics",
+            m3: "IoT (Internet of Things)",
+            m4: "Human-Computer Interaction",
+            m5: "Research Methodology",
+            m6: "Elective"
+        },
+        sem_8: {
+            m1: "Advanced Computer Networks",
+            m2: "Blockchain Technology",
+            m3: "Quantum Computing",
+            m4: "Ethics in Emerging Technologies",
+            m5: "Capstone Project/Thesis",
+            m6: "Elective"
+        }
+    }
+    
+    },
+    
+        {
+            d_name: "mechanical_and_manufacturing",
+            sem_1: {
+                m1: "Engineering Mathematics I",
+                m2: "Engineering Mechanics",
+                m3: "Engineering Drawing",
+                m4: "Physics for Engineers",
+                m5: "Introduction to Mechanical Engineering",
+                m6: "Chemistry for Engineers",
+                
+            },
+            sem_2: {
+                m1: "Engineering Mathematics II",
+                m2: "Thermodynamics",
+                m3: "Materials Science",
+                m4: "Electrical Circuits",
+                m5: "Mechanics of Materials",
+                m6: "Manufacturing Processes",
+              
+            },
+            sem_3: {
+                m1: "Fluid Mechanics",
+                m2: "Machine Design",
+                m3: "Heat Transfer",
+                m4: "Dynamics of Machinery",
+                m5: "Numerical Methods",
+                m6: "Instrumentation and Measurements",
+               
+            },
+            sem_4: {
+                m1: "Advanced Thermodynamics",
+                m2: "Advanced Fluid Mechanics",
+                m3: "Manufacturing Technology",
+                m4: "Control Systems",
+                m5: "Finite Element Analysis",
+                m6: "Mechanical Vibrations",
+                
+            },
+            sem_5: {
+                m1: "Automation and Robotics",
+                m2: "Renewable Energy Systems",
+                m3: "Advanced Manufacturing Processes",
+                m4: "Mechatronics",
+                m5: "Computational Fluid Dynamics",
+                m6: "Quality Control and Assurance"
+            },
+            sem_6: {
+                m1: "Product Design and Development",
+                m2: "Energy Management",
+                m3: "Industrial Engineering",
+                m4: "Biomechanics",
+                m5: "Project Work/Internship",
+                m6: "Elective"
+            },
+            sem_7: {
+                m1: "Automotive Engineering",
+                m2: "Aerospace Engineering",
+                m3: "Sustainable Manufacturing",
+                m4: "Advanced Materials",
+                m5: "Operations Research",
+                m6: "Elective"
+            },
+            sem_8: {
+                m1: "Capstone Project/Thesis",
+                m2: "Advanced Robotics",
+                m3: "Nanotechnology in Manufacturing",
+                m4: "Green Energy Technologies",
+                m5: "Innovation and Entrepreneurship",
+                m6: "Elective"
+            }
+        }
+    
+    ,
+
+        {
+            d_name: "electrical_and_information",
+            sem_1: {
+                m1: "Engineering Mathematics I",
+                m2: "Basic Electrical Engineering",
+                m3: "Engineering Physics",
+                m4: "Engineering Drawing",
+                m5: "Introduction to Computing",
+               
+            },
+            sem_2: {
+                m1: "Engineering Mathematics II",
+                m2: "Circuit Theory",
+                m3: "Digital Electronics",
+                m4: "Electromagnetic Theory",
+                m5: "Programming in C++",
+                m6: "Network Analysis",
+                
+            },
+            sem_3: {
+                m1: "Control Systems",
+                m2: "Microprocessors and Microcontrollers",
+                m3: "Electrical Machines I",
+                m4: "Signals and Systems",
+                m5: "Power Electronics",
+                m6: "Data Structures",
+              
+            },
+            sem_4: {
+                m1: "Electrical Machines II",
+                m2: "Communication Systems",
+                m3: "Embedded Systems",
+                m4: "Power Systems",
+                m5: "Instrumentation and Measurements",
+                m6: "Digital Signal Processing",
+             
+            },
+            sem_5: {
+                m1: "Advanced Control Systems",
+                m2: "Network Security",
+                m3: "Smart Grids",
+                m4: "Renewable Energy Systems",
+                m5: "Wireless Communication",
+                m6: "Project Management"
+            },
+            sem_6: {
+                m1: "Industrial Automation",
+                m2: "Machine Learning for Engineers",
+                m3: "Energy Management",
+                m4: "Robotics",
+                m5: "Project Work/Internship",
+                m6: "Elective"
+            },
+            sem_7: {
+                m1: "Internet of Things (IoT)",
+                m2: "Advanced Power Systems",
+                m3: "Cyber-Physical Systems",
+                m4: "Biomedical Instrumentation",
+                m5: "Operations Research",
+                m6: "Elective"
+            },
+            sem_8: {
+                m1: "Capstone Project/Thesis",
+                m2: "Advanced Robotics",
+                m3: "Nanotechnology in Electronics",
+                m4: "Quantum Computing",
+                m5: "Innovation and Entrepreneurship",
+                m6: "Elective"
+            }
+        },
+
+        
+            {
+                d_name: "civil_and_environmental",
+                sem_1: {
+                    m1: "Engineering Mathematics I",
+                    m2: "Engineering Physics",
+                    m3: "Engineering Chemistry",
+                    m4: "Introduction to Civil Engineering",
+                    m5: "Engineering Drawing",
+                    m6: "Environmental Science",
+                   
+                },
+                sem_2: {
+                    m1: "Engineering Mathematics II",
+                    m2: "Strength of Materials",
+                    m3: "Fluid Mechanics",
+                    m4: "Surveying",
+                    m5: "Geology for Engineers",
+                    m6: "Building Materials and Construction",
+                    
+                },
+                sem_3: {
+                    m1: "Structural Analysis",
+                    m2: "Soil Mechanics",
+                    m3: "Hydraulics",
+                    m4: "Transportation Engineering",
+                    m5: "Water Resources Engineering",
+                    m6: "Environmental Microbiology",
+                 
+                },
+                sem_4: {
+                    m1: "Design of Concrete Structures",
+                    m2: "Foundation Engineering",
+                    m3: "Environmental Engineering",
+                    m4: "Highway Engineering",
+                    m5: "Hydrology",
+                    m6: "Construction Management",
+                   
+                },
+                sem_5: {
+                    m1: "Advanced Structural Analysis",
+                    m2: "Water Supply and Sanitation",
+                    m3: "Solid Waste Management",
+                    m4: "Transportation Planning",
+                    m5: "Remote Sensing",
+                    m6: "Project Management"
+                },
+                sem_6: {
+                    m1: "Design of Steel Structures",
+                    m2: "Irrigation Engineering",
+                    m3: "Environmental Pollution Control",
+                    m4: "Construction Technology",
+                    m5: "Project Work/Internship",
+                    m6: "Elective"
+                },
+                sem_7: {
+                    m1: "Earthquake Engineering",
+                    m2: "Advanced Environmental Engineering",
+                    m3: "Urban Planning and Design",
+                    m4: "Sustainable Construction",
+                    m5: "Operations Research",
+                    m6: "Elective"
+                },
+                sem_8: {
+                    m1: "Capstone Project/Thesis",
+                    m2: "Disaster Management",
+                    m3: "Renewable Energy Systems",
+                    m4: "Green Building Technology",
+                    m5: "Innovation and Entrepreneurship",
+                    m6: "Elective"
+                }
+            },
+        
+                {
+                    d_name: "marine_and_naval_architecture",
+                    sem_1: {
+                        m1: "Engineering Mathematics I",
+                        m2: "Engineering Physics",
+                        m3: "Introduction to Naval Architecture",
+                        m4: "Engineering Drawing",
+                        m5: "Introduction to Marine Engineering",
+                        m6: "Chemistry for Engineers",
+                       
+                    },
+                    sem_2: {
+                        m1: "Engineering Mathematics II",
+                        m2: "Fluid Mechanics",
+                        m3: "Mechanics of Materials",
+                        m4: "Thermodynamics",
+                        m5: "Naval Architecture Drawing",
+                        m6: "Ship Construction",
+                     
+                    },
+                    sem_3: {
+                        m1: "Ship Stability",
+                        m2: "Marine Hydrodynamics",
+                        m3: "Marine Propulsion",
+                        m4: "Material Science for Marine Engineering",
+                        m5: "Numerical Methods",
+                        m6: "Marine Electrical Systems",
+                       
+                    },
+                    sem_4: {
+                        m1: "Marine Structures",
+                        m2: "Ship Resistance and Propulsion",
+                        m3: "Ship Design",
+                        m4: "Marine Engineering Systems",
+                        m5: "Marine Dynamics",
+                        m6: "Coastal Engineering",
+               
+                    },
+                    sem_5: {
+                        m1: "Advanced Ship Design",
+                        m2: "Offshore Engineering",
+                        m3: "Marine Renewable Energy",
+                        m4: "Ship Production and Repair",
+                        m5: "Marine Safety and Risk Analysis",
+                        m6: "Project Management"
+                    },
+                    sem_6: {
+                        m1: "Advanced Marine Hydrodynamics",
+                        m2: "Submarine Design",
+                        m3: "Yacht and Small Craft Design",
+                        m4: "Marine Environmental Protection",
+                        m5: "Project Work/Internship",
+                        m6: "Elective"
+                    },
+                    sem_7: {
+                        m1: "Marine Transportation and Logistics",
+                        m2: "Advanced Ship Structures",
+                        m3: "Ocean Engineering",
+                        m4: "Sustainable Marine Operations",
+                        m5: "Operations Research",
+                        m6: "Elective"
+                    },
+                    sem_8: {
+                        m1: "Capstone Project/Thesis",
+                        m2: "Maritime Law and Regulations",
+                        m3: "Marine Cybersecurity",
+                        m4: "Innovation and Entrepreneurship in Marine Engineering",
+                        m5: "Elective"
+                    }
+                }
+            
+            
+        
+        
+
+    
+];

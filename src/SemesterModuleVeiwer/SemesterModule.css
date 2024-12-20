@@ -9,3 +9,19 @@
     box-shadow: 1px 1px 4px gray;
     
 }
+.back_button_container{
+    width: 95%;
+    height: 50px;
+    
+}
+.back_button{
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 15px;
+    border: none;
+    
+}
+.back_button:hover{
+    background: rgb(39, 38, 38);
+    color: white;
+}

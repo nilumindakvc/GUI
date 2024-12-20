@@ -6,6 +6,7 @@ import Nav from "../../Nav/Nav.jsx"
 import SemesterModule from "../../SemesterModuleVeiwer/SemesterModule.jsx"
 import Dashboard from "./Dashboard/Dashboard.jsx"
 import "./Home.css"
+import Alldepartments from "./Departments/Alldepartments.jsx"
 
 
 
@@ -42,7 +43,8 @@ export default function Home(){
         return(
             <div className="container_home">
                 <Nav navigating_state={navigating_state} set_navigating_state={set_navigating_state} />
-                <SemesterModule/> 
+                {/* <SemesterModule/>  */}
+                <Alldepartments/>
             </div>)
     }
    

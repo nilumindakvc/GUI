@@ -1,0 +1,25 @@
+.departments_selecting_container{
+    width: 90%;
+    height: 60%;
+    /* background: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 20px;
+}
+.department_selector{
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.department_selector:hover{
+    background: greenyellow;
+
+}

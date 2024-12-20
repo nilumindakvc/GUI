@@ -3,7 +3,7 @@ import './Announcement.css'
 
 export default function Announcement({announce}){
     return(
-        <div className="maincontainer_annoc">
+        <div className="maincontainer_annoc" >
             
             <div className="con_top_annoc">
                 Announcement
