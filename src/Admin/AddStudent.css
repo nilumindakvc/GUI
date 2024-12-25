@@ -1,0 +1,85 @@
+.student_adding_conatainer{
+    width: 97%;
+    height: 80%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.title{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:gray;
+    color: white;
+    position: absolute;
+    top: 0;
+}
+
+.student_adding_inputs{
+    width: 100%;
+    height: 100%;
+    background:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.labels_inputs_container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 95%;
+   height: 50%;
+ 
+}
+
+.labels_conatiner{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+
+.inputs_container{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.inputs_container input{
+    font-size: 10px;
+}
+
+.button_section{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background: lightgreen;
+}
+
+.button_section button{
+    margin: 30px;
+    padding: 10px 60px;
+    font-size: 10px;
+   
+
+}

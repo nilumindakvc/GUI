@@ -1,0 +1,77 @@
+.read_all_conatainer{
+    width: 97%;
+    height: 80%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.title_read{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:gray;
+    color: white;
+    position: absolute;
+    top: 0;
+}
+
+.reading_container{
+    width: 100%;
+    height: 65%;
+    background:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow-y: scroll;
+    position: absolute;
+    top: 50px;
+    
+   
+}
+
+.button_section_read{
+    width: 100%;
+    height: 20%;
+    background: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+.button_section_read button{
+    margin: 30px;
+    padding: 10px 60px;
+    font-size: 10px;
+}
+.button_section_read input{
+    font-size: 10px;
+}
+.button_section_read label{
+    font-size: 10px;
+}
+.details_row{
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 95%;
+    height: 30px;
+    
+}
+
+.single_detail{
+    width: 20%;
+    font-size: 10px;
+}

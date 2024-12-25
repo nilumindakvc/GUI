@@ -1,0 +1,76 @@
+.student_deleting_conatainer{
+    width: 97%;
+    height: 50%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.title{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:gray;
+    color: white;
+    position: absolute;
+    top: 0;
+}
+
+.student_deleting_inputs{
+    width: 100%;
+    height: 100%;
+    background:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.labels_inputs_container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 95%;
+   height: 50%;
+}
+
+.labels_conatiner{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.inputs_container{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.button_section{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_section button{
+    margin: 30px;
+    padding: 10px 60px;
+   
+
+}

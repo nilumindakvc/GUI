@@ -3,6 +3,7 @@ import { useState } from 'react'
 import GuestLoginCard from '../../GuestLogin/GuestLoginCard'
 import StudentLoginCard from '../../Student/StudentLoginCard'
 import './Login.css'
+import Adminlogincard from '../../Admin/Adminlogincard';
 
 
 export default function Login(){
@@ -15,6 +16,19 @@ export default function Login(){
     function Guest(){
         setlogger('guest');
     }
+    function Admin(){
+        setlogger('admin');
+    }
+
+    let suitable_login_card;
+
+    if(logger=='student'){
+        suitable_login_card=<StudentLoginCard/>
+    }else if(logger=='guest'){
+        suitable_login_card=<GuestLoginCard/>
+    }else if(logger=='admin'){
+        suitable_login_card=<Adminlogincard/>
+    }
 
     return(
         <div className="maincontainer">
@@ -23,11 +37,15 @@ export default function Login(){
                 <ul>
                     <li onClick={Student}>Student</li>
                     <li onClick={Guest}>Guest</li>
+                    <li onClick={Admin}>Admin</li>
                 </ul>
                 </div>
               
             </div>
-            {logger=='student'?<StudentLoginCard/>:<GuestLoginCard/>}
+            <div>
+            { suitable_login_card }
+            </div>
+           
             
       
             <div className="footer">
